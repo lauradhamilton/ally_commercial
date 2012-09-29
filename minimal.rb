@@ -2,5 +2,5 @@ require 'rubygems'
 require 'sinatra';
 
 get '/' do
-  'Minimal Sinatra Hello World!'
+  haml :index
 end
