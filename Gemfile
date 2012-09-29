@@ -6,3 +6,5 @@ source :gemcutter
 source "http://gemcutter.org"
 
 gem "sinatra"
+gem "heroku"
+gem "rb-readline"
