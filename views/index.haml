@@ -16,11 +16,16 @@
     :css
       body {
         padding-top: 60px;
+        position: relative;
+        background-color: black;
+        background-image: url(/images/chicago-nighttime-skyline.jpg);
+        background-repeat: repeat-x;
+        background-position: 0 40px;
       }
         / Le fav and touch icons
     %link{:href => "images/favicon.ico", :rel => "shortcut icon"}/
 
-%body{"data-spy" => "scroll", "data-target" => ".bs-docs-sidebar"}
+%body{"data-spy" => "scroll", "data-target" => ".bs-docs-sidebar" }
   /
     Navbar
     \==================================================
@@ -31,14 +36,14 @@
           %span.icon-bar
           %span.icon-bar
           %span.icon-bar
-        %a.brand{:href => "./index.html"} Bootstrap
+        %a.brand{:href => "./index.html"} Ally Commercial
         .nav-collapse.collapse
           %ul.nav
             %li.active
               %a{:href => "./index.html"} Home
             %li
               %a{:href => "./about-us.html"} About
-  .jumbotron.masthead
+
     .container
       %h1 Ally Commercial
       %p Enabling commercial real estate brokers to harness technology to close deals quickly. You control who sees your listings.
@@ -47,12 +52,6 @@
   /
     Footer
     \==================================================
-  %footer.footer
-    .container
-      %p.pull-right
-        %a{:href => "#"} Back to top
-      %p
-        Call us at 312.523.6340.
   /
     Le javascript
     \==================================================
