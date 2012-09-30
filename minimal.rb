@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'sinatra'
 require 'active_record'
-require './config/environments';
+#require './config/environments';
 
 
 get '/' do
