@@ -35,8 +35,10 @@
         %div{:class => "span8 offset2"}
           %h1 Ally Commercial
           %p Enabling commercial real estate brokers to harness technology to close deals quickly. You control who sees your listings.
-          %p
-            %a.btn.btn-success.btn-large{:href => "assets/bootstrap.zip"} Sign up now!
+          %br
+          %div{:class => "input-append"}
+            %input{:class => "span2", :id => "appendedInputButton", :size => "16", :type => "text", :placeholder => "Email"}
+            %button{:class => "btn", :type => "button"} Submit
           %p 
             Returning users 
             %a{:href => "/login", :style => "color: #5BB75B;"} Login.
