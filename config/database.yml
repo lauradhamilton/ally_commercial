@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: ally_prod
+  pool: 5
+  username: ally_prod
+  password: password
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: ally_prod
+  pool: 5
+  username: ally_prod
+  password: password
